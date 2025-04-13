@@ -40,18 +40,24 @@ button:hover{
     transition: all 0.4s ease-in-out;
     box-shadow: 1px 5px 6px orange;
 }
+.nd{
+    width: 80px;
+    border-radius: 80px;
+}
 .glow{
     font-weight: bold;
     text-decoration: underline;
 }
 @media screen and (max-width: 768px) {
     .container {
+        margin-top: 106px;
         width: 260px;
         height: 340px;
     }
 }
 @media screen and (max-width: 480px) {
     .container {
+        margin-top: 106px;
         width: 260px;
         height: 340px;
     }
