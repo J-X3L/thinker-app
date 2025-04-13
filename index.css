@@ -1,0 +1,58 @@
+body {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.4)), url("https://i.pinimg.com/736x/ed/e2/07/ede207095a48f0b2ccc60fe9916fbb4e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+.container{
+    width: 300px; 
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.932);
+    box-shadow: 5px 7px 2px white;
+    cursor: pointer;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.container:hover{
+    box-shadow: 7px 9px 2px white;
+    transition: all 0.5s ease;
+}
+#activity{
+    height: 60px; 
+}
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 90%;
+    box-shadow: 1px 3px 4px orange;
+    background-color: #ededed;
+    border-style: none;
+    cursor: pointer;
+}
+button:hover{
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 5px 6px orange;
+}
+.glow{
+    font-weight: bold;
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 260px;
+        height: 340px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        width: 260px;
+        height: 340px;
+    }
+}
